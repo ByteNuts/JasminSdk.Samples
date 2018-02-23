@@ -1,0 +1,25 @@
+﻿@model List<ByteNuts.PrimaveraBss.JasminSdk.Core.Models.MasterDataBusinessEntities.Item.ItemResource>
+@{
+    ViewBag.Title = "Products List";
+}
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Item Key</th>
+        <th>Description</th>
+        <th>Complementary Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var customerParty in Model)
+    {
+        <tr>
+            <td>@customerParty.ItemKey</td>
+            <td>@customerParty.Description</td>
+            <td>@customerParty.ComplementaryDescription</td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,118 @@
+2018-02-23 02:49:59.271 +00:00 [INF] Starting web host
+2018-02-23 02:50:00.023 +00:00 [INF] User profile is available. Using 'C:\Users\John\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-02-23 02:50:00.822 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/  
+2018-02-23 02:50:01.012 +00:00 [INF] Executing action method ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.Index (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:04.824 +00:00 [INF] Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+2018-02-23 02:50:05.318 +00:00 [INF] Executed action ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.Index (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) in 4323.496ms
+2018-02-23 02:50:05.325 +00:00 [INF] Request finished in 4513.8141ms 200 text/html; charset=utf-8
+2018-02-23 02:50:05.367 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/css/site.css  
+2018-02-23 02:50:05.371 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccCssFile  
+2018-02-23 02:50:05.375 +00:00 [INF] The file /css/site.css was not modified
+2018-02-23 02:50:05.378 +00:00 [INF] Request finished in 11.2289ms 304 text/css
+2018-02-23 02:50:05.379 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/lib/bootstrap/dist/css/bootstrap.css  
+2018-02-23 02:50:05.380 +00:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-02-23 02:50:05.380 +00:00 [INF] Request finished in 1.0997ms 304 text/css
+2018-02-23 02:50:05.383 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:05.386 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:05.392 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) in 15.3582ms
+2018-02-23 02:50:05.392 +00:00 [INF] Request finished in 20.7318ms 200 text/css
+2018-02-23 02:50:05.406 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/lib/jquery/dist/jquery.js  
+2018-02-23 02:50:05.407 +00:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-02-23 02:50:05.407 +00:00 [INF] Request finished in 0.7065ms 304 application/javascript
+2018-02-23 02:50:05.422 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/lib/bootstrap/dist/js/bootstrap.js  
+2018-02-23 02:50:05.423 +00:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-02-23 02:50:05.423 +00:00 [INF] Request finished in 0.951ms 304 application/javascript
+2018-02-23 02:50:05.434 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-02-23 02:50:05.434 +00:00 [INF] The file /js/site.js was not modified
+2018-02-23 02:50:05.434 +00:00 [INF] Request finished in 0.7876ms 304 application/javascript
+2018-02-23 02:50:05.448 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccJsFile  
+2018-02-23 02:50:05.453 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:05.454 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:05.456 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) in 3.9095ms
+2018-02-23 02:50:05.457 +00:00 [INF] Request finished in 8.3988ms 200 application/javascript
+2018-02-23 02:50:05.471 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/images/banner1.svg  
+2018-02-23 02:50:05.472 +00:00 [INF] The file /images/banner1.svg was not modified
+2018-02-23 02:50:05.472 +00:00 [INF] Request finished in 0.7593ms 304 image/svg+xml
+2018-02-23 02:50:05.482 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/images/banner2.svg  
+2018-02-23 02:50:05.483 +00:00 [INF] The file /images/banner2.svg was not modified
+2018-02-23 02:50:05.483 +00:00 [INF] Request finished in 1.0892ms 304 image/svg+xml
+2018-02-23 02:50:05.493 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/images/banner3.svg  
+2018-02-23 02:50:05.494 +00:00 [INF] The file /images/banner3.svg was not modified
+2018-02-23 02:50:05.495 +00:00 [INF] Request finished in 1.3362ms 304 image/svg+xml
+2018-02-23 02:50:05.509 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/images/banner4.svg  
+2018-02-23 02:50:05.510 +00:00 [INF] The file /images/banner4.svg was not modified
+2018-02-23 02:50:05.510 +00:00 [INF] Request finished in 1.1304ms 304 image/svg+xml
+2018-02-23 02:50:05.664 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-02-23 02:50:05.665 +00:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-02-23 02:50:05.665 +00:00 [INF] Request finished in 1.037ms 304 font/woff2
+2018-02-23 02:50:07.176 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/Home/CustomerPartyList  
+2018-02-23 02:50:07.190 +00:00 [INF] Executing action method ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.CustomerPartyList (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:08.107 +00:00 [INF] Authentication succeeded!
+2018-02-23 02:50:10.946 +00:00 [INF] Executing ViewResult, running view at path /Views/Home/CustomerPartyList.cshtml.
+2018-02-23 02:50:11.571 +00:00 [INF] Executed action ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.CustomerPartyList (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) in 4380.6782ms
+2018-02-23 02:50:11.571 +00:00 [INF] Request finished in 4395.5987ms 200 text/html; charset=utf-8
+2018-02-23 02:50:11.606 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccCssFile  
+2018-02-23 02:50:11.607 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:11.607 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:11.607 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) in 0.7965ms
+2018-02-23 02:50:11.607 +00:00 [INF] Request finished in 1.7144ms 200 text/css
+2018-02-23 02:50:11.608 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccJsFile  
+2018-02-23 02:50:11.609 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:11.609 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:11.609 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) in 0.5593ms
+2018-02-23 02:50:11.609 +00:00 [INF] Request finished in 1.1052ms 200 application/javascript
+2018-02-23 02:50:13.296 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:59477/NetCoreControls/ControlAction application/x-www-form-urlencoded; charset=UTF-8 30923
+2018-02-23 02:50:13.508 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) with arguments (["Microsoft.AspNetCore.Http.FormCollection","System.String[]","System.Collections.Generic.Dictionary`2[System.String,System.String]"]) - ModelState is "Valid"
+2018-02-23 02:50:13.668 +00:00 [INF] Executing JsonResult, writing value System.Collections.Generic.List`1[System.String].
+2018-02-23 02:50:13.674 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) in 337.5566ms
+2018-02-23 02:50:13.676 +00:00 [INF] Request finished in 380.1308ms 200 application/json; charset=utf-8
+2018-02-23 02:50:14.524 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:59477/NetCoreControls/ControlAction application/x-www-form-urlencoded; charset=UTF-8 31158
+2018-02-23 02:50:14.528 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) with arguments (["Microsoft.AspNetCore.Http.FormCollection","System.String[]","System.Collections.Generic.Dictionary`2[System.String,System.String]"]) - ModelState is "Valid"
+2018-02-23 02:50:14.534 +00:00 [INF] Executing JsonResult, writing value System.Collections.Generic.List`1[System.String].
+2018-02-23 02:50:14.535 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) in 10.562000000000001ms
+2018-02-23 02:50:14.535 +00:00 [INF] Request finished in 11.4919ms 200 application/json; charset=utf-8
+2018-02-23 02:50:15.852 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/Home/ProductList  
+2018-02-23 02:50:15.860 +00:00 [INF] Executing action method ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.ProductList (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:16.851 +00:00 [INF] Executing ViewResult, running view at path /Views/Home/ProductList.cshtml.
+2018-02-23 02:50:17.076 +00:00 [INF] Executed action ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.ProductList (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) in 1216.7513000000001ms
+2018-02-23 02:50:17.077 +00:00 [INF] Request finished in 1224.8933ms 200 text/html; charset=utf-8
+2018-02-23 02:50:17.109 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccCssFile  
+2018-02-23 02:50:17.109 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccJsFile  
+2018-02-23 02:50:17.109 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:17.109 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:17.109 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:17.110 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:17.110 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) in 0.5898ms
+2018-02-23 02:50:17.110 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) in 0.65950000000000009ms
+2018-02-23 02:50:17.110 +00:00 [INF] Request finished in 1.2075ms 200 text/css
+2018-02-23 02:50:17.110 +00:00 [INF] Request finished in 1.2588ms 200 application/javascript
+2018-02-23 02:50:18.646 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:59477/NetCoreControls/ControlAction application/x-www-form-urlencoded; charset=UTF-8 55508
+2018-02-23 02:50:18.679 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) with arguments (["Microsoft.AspNetCore.Http.FormCollection","System.String[]","System.Collections.Generic.Dictionary`2[System.String,System.String]"]) - ModelState is "Valid"
+2018-02-23 02:50:18.774 +00:00 [INF] Executing JsonResult, writing value System.Collections.Generic.List`1[System.String].
+2018-02-23 02:50:18.775 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) in 129.1424ms
+2018-02-23 02:50:18.776 +00:00 [INF] Request finished in 130.0452ms 200 application/json; charset=utf-8
+2018-02-23 02:50:19.491 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:59477/NetCoreControls/ControlAction application/x-www-form-urlencoded; charset=UTF-8 55743
+2018-02-23 02:50:19.497 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) with arguments (["Microsoft.AspNetCore.Http.FormCollection","System.String[]","System.Collections.Generic.Dictionary`2[System.String,System.String]"]) - ModelState is "Valid"
+2018-02-23 02:50:19.506 +00:00 [INF] Executing JsonResult, writing value System.Collections.Generic.List`1[System.String].
+2018-02-23 02:50:19.507 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) in 14.968ms
+2018-02-23 02:50:19.507 +00:00 [INF] Request finished in 15.9492ms 200 application/json; charset=utf-8
+2018-02-23 02:50:20.291 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:59477/NetCoreControls/ControlAction application/x-www-form-urlencoded; charset=UTF-8 55743
+2018-02-23 02:50:20.294 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) with arguments (["Microsoft.AspNetCore.Http.FormCollection","System.String[]","System.Collections.Generic.Dictionary`2[System.String,System.String]"]) - ModelState is "Valid"
+2018-02-23 02:50:20.302 +00:00 [INF] Executing JsonResult, writing value System.Collections.Generic.List`1[System.String].
+2018-02-23 02:50:20.303 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.ControlAction (ByteNuts.NetCoreControls) in 11.184700000000001ms
+2018-02-23 02:50:20.303 +00:00 [INF] Request finished in 11.9382ms 200 application/json; charset=utf-8
+2018-02-23 02:50:21.605 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/  
+2018-02-23 02:50:21.606 +00:00 [INF] Executing action method ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.Index (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:21.606 +00:00 [INF] Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+2018-02-23 02:50:21.607 +00:00 [INF] Executed action ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore.Controllers.HomeController.Index (ByteNuts.PrimaveraBss.JasminSdk.Samples.MvcCore) in 1.405ms
+2018-02-23 02:50:21.607 +00:00 [INF] Request finished in 2.0351ms 200 text/html; charset=utf-8
+2018-02-23 02:50:21.643 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccJsFile  
+2018-02-23 02:50:21.644 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:21.644 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:21.645 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccJsFile (ByteNuts.NetCoreControls) in 1.3722ms
+2018-02-23 02:50:21.645 +00:00 [INF] Request finished in 2.2578ms 200 application/javascript
+2018-02-23 02:50:21.649 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:59477/NetCoreControls/GetNccCssFile  
+2018-02-23 02:50:21.652 +00:00 [INF] Executing action method ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) with arguments (null) - ModelState is "Valid"
+2018-02-23 02:50:21.652 +00:00 [INF] Executing FileResult, sending file as 
+2018-02-23 02:50:21.652 +00:00 [INF] Executed action ByteNuts.NetCoreControls.Controllers.NetCoreControlsController.GetNccCssFile (ByteNuts.NetCoreControls) in 2.8414ms
+2018-02-23 02:50:21.652 +00:00 [INF] Request finished in 3.7265ms 200 text/css

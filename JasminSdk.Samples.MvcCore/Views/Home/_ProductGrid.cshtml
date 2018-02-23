@@ -1,0 +1,19 @@
+﻿@using ByteNuts.NetCoreControls.Models.Grid
+
+@{
+    var context = (NccGridContext)ViewData["ProductList"];
+}
+
+<ncc:grid Context="@context" AllowPaging="true" CssClassTable="table table-striped table-bordered table-hover dataTable no-footer dtr-inline" CssClassTableContainer="table-responsive" CssClassFooterContainer="row datatables-footer">
+    <ncc:grid-columns>
+        <ncc:grid-columnbound DataValue="@Model.ItemKey" HeaderText="Item Key"></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.Description" HeaderText="Description"></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.ComplementaryDescription" HeaderText="Complementary Description"></ncc:grid-columnbound>
+    </ncc:grid-columns>
+    <ncc:grid-pager CssClassRecordCountDiv="dataTables_info" CssClassPagerDiv="dataTables_paginate paging_simple_numbers" CssClassPagerUl="pagination floatRight" />
+    <ncc:grid-emptyrow>
+        <div class="alert alert-info text-center">
+            <strong>No Products available to list.</strong>
+        </div>
+    </ncc:grid-emptyrow>
+</ncc:grid>

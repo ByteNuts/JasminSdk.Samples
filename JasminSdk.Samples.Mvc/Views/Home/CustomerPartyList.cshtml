@@ -1,0 +1,31 @@
+﻿@model List<ByteNuts.PrimaveraBss.JasminSdk.Core.Models.Sales.CustomerParty.BaseCustomerPartyResource>
+@{
+    ViewBag.Title = "Customer Parties List";
+}
+<h2>@ViewBag.Title</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Party Key</th>
+            <th>Name</th>
+            <th>Company Tax Id</th>
+            <th>Country</th>
+            <th>Party Tax Schema</th>
+            <th>Payment Method</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var customerParty in Model)
+    {
+        <tr>
+            <td>@customerParty.PartyKey</td>
+            <td>@customerParty.Name</td>
+            <td>@customerParty.CompanyTaxId</td>
+            <td>@customerParty.Country</td>
+            <td>@customerParty.PartyTaxSchema</td>
+            <td>@customerParty.PaymentMethod</td>
+        </tr>
+    }
+    </tbody>
+</table>

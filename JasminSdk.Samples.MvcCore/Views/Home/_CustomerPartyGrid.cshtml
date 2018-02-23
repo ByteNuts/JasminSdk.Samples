@@ -1,0 +1,22 @@
+﻿@using ByteNuts.NetCoreControls.Models.Grid
+
+@{
+    var context = (NccGridContext)ViewData["CustomerPartyList"];
+}
+
+<ncc:grid Context="@context" AllowPaging="true" CssClassTable="table table-striped table-bordered table-hover dataTable no-footer dtr-inline" CssClassTableContainer="table-responsive" CssClassFooterContainer="row datatables-footer">
+    <ncc:grid-columns>
+        <ncc:grid-columnbound DataValue="@Model.PartyKey" HeaderText="Party Key" ></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.Name" HeaderText="Name" ></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.CompanyTaxId" HeaderText="Company Tax Id" ></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.Country" HeaderText="Country"></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.PartyTaxSchema" HeaderText="Party Tax Schema" ></ncc:grid-columnbound>
+        <ncc:grid-columnbound DataValue="@Model.PaymentMethod" HeaderText="Payment Method"></ncc:grid-columnbound>
+    </ncc:grid-columns>
+    <ncc:grid-pager CssClassRecordCountDiv="dataTables_info" CssClassPagerDiv="dataTables_paginate paging_simple_numbers" CssClassPagerUl="pagination floatRight" />
+    <ncc:grid-emptyrow>
+        <div class="alert alert-info text-center">
+            <strong>No Customer Parties available to list.</strong>
+        </div>
+    </ncc:grid-emptyrow>
+</ncc:grid>

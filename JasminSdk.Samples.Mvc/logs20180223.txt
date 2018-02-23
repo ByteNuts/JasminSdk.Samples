@@ -1,0 +1,2 @@
+2018-02-23 02:50:39.427 +00:00 [INF] Log created!!
+2018-02-23 02:50:46.162 +00:00 [INF] Authentication succeeded!
